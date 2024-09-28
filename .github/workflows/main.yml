@@ -10,10 +10,10 @@ on:
 
 jobs:
     build:
-      runs-on:ubuntu-latest
+      runs-on: ubuntu-latest
 
       steps:
-         -name: Checkout the code base
-          uses: action/checkout@v4
+          - name: Checkout the code base
+            uses: action/checkout@v4
     
     
